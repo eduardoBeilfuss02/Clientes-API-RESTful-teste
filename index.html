@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste da API REST</title>
+</head>
+<body>
+  <h1>Teste da API REST</h1>
+
+  <!-- Formulário para buscar todos os clientes -->
+  <button onclick="buscarClientes()">Buscar Todos os Clientes</button>
+  <pre id="resultadoGetTodos"></pre>
+
+  <!-- Formulário para buscar cliente por ID -->
+  <h2>Buscar Cliente por ID</h2>
+  <input type="number" id="buscarClienteId" placeholder="ID do Cliente">
+  <button onclick="buscarClientePorId()">Buscar Cliente</button>
+  <pre id="resultadoGetPorId"></pre>
+
+  <!-- Formulário para criar um novo cliente -->
+  <h2>Criar Novo Cliente</h2>
+  <input type="text" id="nome" placeholder="Nome">
+  <input type="text" id="endereco" placeholder="Endereço">
+  <input type="text" id="cep" placeholder="CEP">
+  <input type="date" id="dataNascimento" placeholder="Data de Nascimento">
+  <input type="tel" id="telefone" placeholder="Telefone">
+  <button onclick="criarCliente()">Criar Cliente</button>
+  <pre id="resultadoPost"></pre>
+
+  <!-- Formulário para atualizar um cliente -->
+  <h2>Atualizar Cliente</h2>
+  <input type="number" id="atualizarClienteId" placeholder="ID do Cliente">
+  <input type="text" id="novoTelefone" placeholder="Novo Telefone">
+  <button onclick="atualizarCliente()">Atualizar Cliente</button>
+  <pre id="resultadoPut"></pre>
+
+  <!-- Formulário para deletar um cliente -->
+  <h2>Deletar Cliente</h2>
+  <input type="number" id="deletarClienteId" placeholder="ID do Cliente">
+  <button onclick="deletarCliente()">Deletar Cliente</button>
+  <pre id="resultadoDelete"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>

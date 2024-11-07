@@ -1,0 +1,26 @@
+[
+  {
+    "cliente_id": 1,
+    "nome": "João Silva",
+    "endereco": "Rua das Flores, 123",
+    "cep": "12345-678",
+    "data_nascimento": "1990-01-01",
+    "telefone": "(11) 98765-4321"
+  },
+  {
+    "cliente_id": 2,
+    "nome": "Maria Oliveira",
+    "endereco": "Av. Central, 456",
+    "cep": "87654-321",
+    "data_nascimento": "1985-05-15",
+    "telefone": "555555"
+  },
+  {
+    "cliente_id": 3,
+    "nome": "Luiz",
+    "endereco": "Rua 3",
+    "cep": "96600-000",
+    "data_nascimento": "2024-11-27",
+    "telefone": "593333"
+  }
+]
